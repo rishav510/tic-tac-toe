@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  overflow: hidden
+}
+.grid-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.left-wrapper{
+  box-shadow: rgba(0, 0, 0, 0.19) 10px 0px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.left-container, .right-container{
+  height: 100vh;
+  margin: 16px 0 0 16px;
+  
+}
+
+
+.right-container{
+  vertical-align: middle;
+}
+
+.flex-aligner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+}
